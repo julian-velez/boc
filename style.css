@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+}
+
+.box{
+    width: 165px;
+    height: 165px;
+    border-bottom: 124px dotted cyan;
+    border-left: 124px dotted crimson;
+    border-right: 124px dotted orange;
+    border-top: 124px dotted peru;
+    border-radius: 56%;
+    animation: julian 0.5s ease-in-out infinite;
+    transition: 0.5s;
+}
+
+@keyframes julian {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
